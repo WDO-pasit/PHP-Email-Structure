@@ -21,7 +21,7 @@
         </div>
     
         <div class="credit">
-        © 2024 <span>wevdevohm</span> | All rights reserved.
+        © 2025 <span>pasit phonmanee</span> | All rights reserved.
         </div>
     </section>
   

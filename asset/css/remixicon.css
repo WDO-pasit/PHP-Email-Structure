@@ -8,12 +8,12 @@
 
 @font-face {
     font-family: "remixicon";
-    src: url('../fonts/remixicon.eot?t=1746546949238'); /* IE9*/
-    src: url('../fonts/remixicon.eot?t=1746546949238#iefix') format('embedded-opentype'), /* IE6-IE8 */
-    url("../fonts/remixicon.woff2?t=1746546949238") format("woff2"),
-    url("../fonts/remixicon.woff?t=1746546949238") format("woff"),
-    url('../fonts/remixicon.ttf?t=1746546949238') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
-    url('../fonts/remixicon.svg?t=1746546949238#remixicon') format('svg'); /* iOS 4.1- */
+    src: url('../fonts/remixicon.eot?t=1750263445212'); /* IE9*/
+    src: url('../fonts/remixicon.eot?t=1750263445212#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url("../fonts/remixicon.woff2?t=1750263445212") format("woff2"),
+    url("../fonts/remixicon.woff?t=1750263445212") format("woff"),
+    url('../fonts/remixicon.ttf?t=1750263445212') format('truetype'), /* chrome, ../fonts/firefox, opera, Safari, Android, iOS 4.2+*/
+    url('../fonts/remixicon.svg?t=1750263445212#remixicon') format('svg'); /* iOS 4.1- */
     font-display: swap;
 }
 
@@ -59,3 +59,44 @@
 .ri-reset-right-line:before { content: "\f544"; }
 .ri-user-settings-fill:before { content: "\f26d"; }
 .ri-close-circle-fill:before { content: "\eb96"; }
+.ri-message-3-line:before { content: "\ef46"; }
+.ri-user-2-line:before { content: "\f254"; }
+.ri-arrow-left-circle-fill:before { content: "\ea5b"; }
+.ri-arrow-down-circle-fill:before { content: "\ea49"; }
+.ri-arrow-right-circle-fill:before { content: "\ea67"; }
+.ri-arrow-up-circle-fill:before { content: "\ea71"; }
+.ri-code-box-fill:before { content: "\eba6"; }
+.ri-html5-fill:before { content: "\ee40"; }
+.ri-css3-fill:before { content: "\ec03"; }
+.ri-javascript-fill:before { content: "\f33a"; }
+.ri-php-fill:before { content: "\f590"; }
+.ri-database-2-line:before { content: "\ec16"; }
+.ri-server-line:before { content: "\f0e0"; }
+.ri-book-line:before { content: "\ead7"; }
+.ri-cash-line:before { content: "\f2fb"; }
+.ri-hand-heart-fill:before { content: "\edf2"; }
+.ri-mail-send-fill:before { content: "\eefb"; }
+.ri-mail-fill:before { content: "\eef3"; }
+.ri-heart-fill:before { content: "\ee0e"; }
+.ri-global-line:before { content: "\edcf"; }
+.ri-home-fill:before { content: "\ee26"; }
+.ri-reactjs-fill:before { content: "\f057"; }
+.ri-earth-fill:before { content: "\ec79"; }
+.ri-file-line:before { content: "\eceb"; }
+.ri-indeterminate-circle-line:before { content: "\ee57"; }
+.ri-checkbox-blank-fill:before { content: "\eb7e"; }
+.ri-checkbox-fill:before { content: "\eb82"; }
+.ri-checkbox-indeterminate-fill:before { content: "\eb83"; }
+.ri-add-box-fill:before { content: "\ea0e"; }
+.ri-checkbox-blank-circle-fill:before { content: "\eb7c"; }
+.ri-checkbox-circle-fill:before { content: "\eb80"; }
+.ri-check-double-fill:before { content: "\eb78"; }
+.ri-check-fill:before { content: "\eb7a"; }
+.ri-add-fill:before { content: "\ea12"; }
+.ri-subtract-fill:before { content: "\f1ae"; }
+.ri-divide-fill:before { content: "\ec3f"; }
+.ri-close-fill:before { content: "\eb98"; }
+.ri-equal-fill:before { content: "\f31e"; }
+.ri-thumb-up-fill:before { content: "\f206"; }
+.ri-thumb-up-line:before { content: "\f207"; }
+.ri-loader-fill:before { content: "\eec9"; }

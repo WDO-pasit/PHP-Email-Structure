@@ -1,0 +1,34 @@
+
+
+
+
+.home-coming h1 {
+    padding: 2rem;
+    font-size: 2.5rem;
+}
+
+.messege{
+    padding: 2rem;
+}
+
+
+body i{
+    font-size: 2rem;
+    color: #06578a;
+}
+.messege .ri-github-fill{
+    color: #fc5b5b;
+}
+.messege .ri-github-fill:hover{
+    color: #5be1fc;
+    transform: scale(1.1) rotate(5deg);
+}
+
+
+.stack{
+    padding-left:1rem;
+    padding-right:1rem ;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}

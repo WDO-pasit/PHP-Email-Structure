@@ -1,11 +1,7 @@
 RewriteEngine On
 
-
-RewriteRule ^ - [L]
-
-RewriteCond %{REQUEST_FILENAME} !-f
+# ถ้าไม่ใช่โฟลเดอร์และไฟล์ ให้ลองแปลง URL
 RewriteCond %{REQUEST_FILENAME} !-d
-
-RewriteRule ^(.*)$ index.php?route=$1 [L,QSA]
-
-SetEnvIf Authorization "(.*)" HTTP_AUTHORIZATION=$1
+RewriteCond %{REQUEST_FILENAME}.php -f
+RewriteRule ^(.*)$ $1.php [L]
+RewriteCond %{REQUEST_URI} !^/sitemap\.xml$ [NC]

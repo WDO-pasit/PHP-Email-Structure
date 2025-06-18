@@ -1,0 +1,144 @@
+
+
+
+
+
+
+
+.home-coming h1 {
+    padding: 2rem;
+    font-size: 2.5rem;
+}
+
+.messege{
+    padding: 2rem;
+}
+
+
+body i{
+    font-size: 2rem;
+    color: #06578a;
+}
+.messege .ri-github-fill{
+    color: #fc5b5b;
+}
+.messege .ri-github-fill:hover{
+    color: #5be1fc;
+    transform: scale(1.1) rotate(5deg);
+}
+.card-profile{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.card-profile img{
+    border-radius: 2rem;
+    margin: 2rem;
+}
+.text{
+    display: flex;
+    flex-direction: row;
+    width: fit-content;
+}
+
+.text-inside{
+    display: flex;
+    padding: 1rem;
+    flex-direction: column;
+}
+.home-coming{
+    align-items: center;
+}
+
+.email textarea{
+    width: 600px;
+    height: 200px;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+.email-input input{
+    width: 600px;
+    height: 25px;
+    padding: 1rem;
+    border-radius: .5rem;
+}
+ .about-me{
+    width: 300px;
+ }
+ .about-me h3{
+    font-size: 2rem;
+ }
+  .about-me p{
+    padding: .5rem;
+ }
+
+ .text button{
+    align-self: center;
+    width:  15rem;
+    padding: 1rem;
+    border-radius:1rem ;
+    cursor: pointer;
+ }
+ .text button:hover{
+    background: var(--font-hover);
+ }
+ .email-input{
+    margin-bottom: 1rem;
+ }
+
+.workshop{
+    margin:2rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.project{
+    border: 1px solid var(--line-border);
+    border-radius: 1rem;
+    padding: 1rem;
+    margin: 2rem;
+    box-shadow: var(--box-shadow);
+}
+.project p{
+    font-size: 2rem;
+    color: var(--font-tone2);
+}
+.project:hover{
+    transform: scale(1.1);
+    box-shadow: 0 0 10px rgba(29, 255, 221, 0.9);
+    border: 1px solid rgba(3, 39, 34, 0.9);
+}
+
+
+.messenger{
+    display: block;
+}
+.messenger a{
+    position: fixed;
+    right: 2rem;
+    bottom: 3rem;
+    color: var(--font-tone2);
+    align-items: center;
+    padding: 0 1rem 0 1rem;
+    justify-items: center;
+}
+.messenger .ri-message-3-line{
+    font-size: 2.5rem;
+}
+.messenger a:hover{
+    transform: scale(1.1);
+    box-shadow: 0 0 10px rgba(29, 255, 221, 0.9);
+    border: 1px solid rgba(3, 39, 34, 0.9);
+    border-radius: .5rem;
+}
+
+.model{
+    display: flex;
+    justify-content: center;
+}
+model-viewer {
+      width: 150px;
+      height: 150px;
+      background: transparent;
+}

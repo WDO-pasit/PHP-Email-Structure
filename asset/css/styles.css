@@ -21,13 +21,14 @@ body {
 :root{
     --black-tone:  rgb(255, 255, 255);
     --font-tone:rgb(20, 101, 155);
-    --font-hover:rgb(136, 58, 58);
+    --font-hover:#3587ba;
     --font-tone2:rgb(0, 0, 0);
     --font-tone3:rgb(103, 130, 151);
     --font-tone3:rgb(58, 90, 114);
     --background: linear-gradient(to bottom, #61bffa, #397fc5,#1d64aa, #06578a);
     --grey-background:rgba(255, 255, 255, 0.1);
     --box-shadow: 0 0 10px rgba(109, 199, 255, 0.9);
+    --line-border: #3587ba;
 }
 html{
     font-size: 14px;
@@ -38,9 +39,6 @@ html{
     overflow-x: hidden;
     max-width: 100%;
 }
-
-
-
 
 .head {
     position: relative;
@@ -54,24 +52,7 @@ html{
     padding-left: .5vh;
     z-index: 100 ;
 }
-nav {
-    display: flex;
-    gap: 3rem;
-    flex-grow: 1; /* ให้ Navbar ขยายตรงกลาง */
-    justify-content: center;
-    color: var(--font-tone2);
-}
-.head img {
-    width: 3rem;
-    transition: transform 0.3s ease-in-out;
-    cursor: pointer;
-    margin-left: 1rem;
-}
-
-.head img:hover {
-    transform: scale(1.1) rotate(5deg);
-}
-.head  nav a{
+.text-header a{
     font-size: 1.5rem;
     text-align: center;
     cursor: pointer;
@@ -79,8 +60,25 @@ nav {
     padding: 0 1rem 0 1rem;
     border-radius: 1rem;
 }
+nav {
+    display: flex;
+    gap: 3rem;
+    flex-grow: 1; /* ให้ Navbar ขยายตรงกลาง */
+    justify-content: center;
+    color: var(--font-tone2);
+    padding: .5rem;
+}
+.head  nav a{
+    font-size: 1.5rem;
+    text-align: center;
+    cursor: pointer;
+    color: var(--font-tone2);
+    padding: 0 1rem 0 1rem;
+    border-radius: .5rem;
+}
 .head  nav a:hover{
-    background-color: var(--font-tone3);
+    background-color: rgb(131, 156, 158);
+    color: white;
     transform: translate(-1%, -1%);
 }
 .head span {
@@ -107,7 +105,7 @@ nav {
 
 .footer {
     margin-top: 1rem;
-    color: #fff;
+    color: var(--font-tone2);
     text-align: center;
 }
 
@@ -130,19 +128,19 @@ nav {
 .footer .box h3 {
     font-size: 1rem;
     margin-bottom: 1rem;
-    color: #fad02e;
+    color: var(--font-tone2);
 }
 
 .footer .box p, 
 .footer .box a {
     font-size: 1rem;
-    color: #ffffff;
+    color: var(--font-tone2);
     text-decoration: none;
     margin: 0 .5rem 0 .5rem;
 }
 
 .footer .box a:hover {
-    color: #fad02e;
+    color: var(--font-tone2);
     transition: 0.3s ease;
 }
 
@@ -153,13 +151,13 @@ nav {
 }
 
 .footer .social-icons a {
-    color: #fff;
+    color: var(--font-tone2);
     font-size: 2rem;
     transition: 0.3s ease;
 }
 
 .footer .social-icons a:hover {
-    color: #fad02e;
+    color: var(--font-tone2);
 }
 
 /* ลิขสิทธิ์ */
@@ -169,11 +167,11 @@ nav {
     padding-top:.2rem ;
     margin-bottom: 1rem;
     font-size: 1rem;
-    color: var(--font);
+    color: var(--font-tone2);
     border-top: black 1px solid;
 }
 .footer .credit span {
-    color: var(--accent);
+    color: var(--font-tone2);
     font-weight: bold;
 }
 
@@ -293,3 +291,4 @@ nav {
       font-size: 8px;
     }
   }
+

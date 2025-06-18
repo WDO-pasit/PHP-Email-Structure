@@ -33,27 +33,25 @@ if (!isset($pageConfig)) {
 
     <link rel="stylesheet" href="<?= BASE_URL ?>asset/css/styles.css">
     <link rel="stylesheet" href="<?= BASE_URL ?>asset/css/remixicon.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,600,0,0" />
+    
     <link rel="icon" href="https://webdevohm.com/asset/img/Profile/logo.png" type="image/png">
-
+    <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
 
 </head> 
 <body>
     <header>
         <div class="head">
             <div class="text-header">
-                <a href="<?= BASE_URL ?>">Pasit Phonmanee</a>
+                <a href="<?= BASE_URL ?>"><i class="ri-file-line"></i>Portfolio <i class="ri-user-2-line"></i> Mr.Pasit Phonmanee</a>
             </div>
 
             <nav class="navbar-header">
-                <a href="<?= BASE_URL ?>" class="navhome">home</a>
-                <a href="<?= BASE_URL ?>myproject" class="navhome">My work</a>
+                <a href="<?= BASE_URL ?>" class="navhome"><i class="ri-home-fill"></i> home</a>
+                <a href="<?= BASE_URL ?>myproject" class="navhome"><i class="ri-arrow-right-circle-fill"></i> My work</a>
             </nav>
 
             <div class="icon">
-
-                <span class="material-symbols-outlined" id="menu">menu</span>
-                <a href="contract"><span class="material-symbols-outlined">call</span></a>
+                <button><i class="ri-phone-fill"></i></button>
             </div>
         </div>
         

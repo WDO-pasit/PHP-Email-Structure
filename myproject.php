@@ -11,12 +11,26 @@ $pageConfig = [
 ];
 ?>
 <?php include(__DIR__ . '/component/header.php'); ?>
+<link rel="stylesheet" href="<?= BASE_URL ?>asset/css/styles_work.css">
   <main>
         <section>
             <div class="home-coming">
-                <h1>My work</h1>
-                
+                <h1>My work space</h1>
+                <div class="stack">
+                    <div class="work">
+                        <h2>Web application</h2>
+                    </div>
+                    <div class="work">
+                        <h2>My project now</h2>
+                    </div>
+                    <div class="work">
+                        <h2>Success</h2>
+                    </div>
 
+                    <div class="work">
+                        <h2>Monthly schedule</h2>
+                    </div>
+                </div>
             </div>
         </section>
     </main>

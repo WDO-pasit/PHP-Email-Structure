@@ -1,0 +1,11 @@
+RewriteEngine On
+
+
+RewriteRule ^ - [L]
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+RewriteRule ^(.*)$ index.php?route=$1 [L,QSA]
+
+SetEnvIf Authorization "(.*)" HTTP_AUTHORIZATION=$1

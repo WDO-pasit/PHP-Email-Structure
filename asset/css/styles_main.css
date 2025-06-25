@@ -47,18 +47,23 @@ body i{
     padding: 1rem;
     flex-direction: column;
 }
+.text-inside form{ 
+    display: flex;
+    padding: 1rem;
+    flex-direction: column;
+}
 .home-coming{
     align-items: center;
 }
 
 .email textarea{
-    width: 600px;
+    width: 500px;
     height: 200px;
     padding: 1rem;
     border-radius: 1rem;
 }
 .email-input input{
-    width: 600px;
+    width: 500px;
     height: 25px;
     padding: 1rem;
     border-radius: .5rem;
@@ -141,4 +146,10 @@ model-viewer {
       width: 150px;
       height: 150px;
       background: transparent;
+}
+
+#result{
+    font-size: 1.5rem;
+    text-align: center;
+    color: var(--font-tone2);
 }

@@ -1,4 +1,8 @@
-<?php define('BASE_URL', 'http://localhost/Git/Pasit/website_php/'); ?>
+<?php 
+    //define('BASE_URL', 'https://ohmtool.com/');
+    define('BASE_URL', 'http://localhost/Git/Pasit/website_php/'); 
+    define('SECURE_ACCESS', true);
+?>
 <?php
 $pageConfig = [
     "title" => "หน้าหลักสั่งทำเว็บ | Web Dev Ohm",
@@ -18,17 +22,21 @@ $pageConfig = [
                 <h1>My work space</h1>
                 <div class="stack">
                     <div class="work">
-                        <h2>Web application</h2>
+                        <h2>Web Application</h2>
+                        <?php include(__DIR__ . '/component/WebApplication.php'); ?>
                     </div>
                     <div class="work">
-                        <h2>My project now</h2>
+                        <h2>My Project Now</h2>
+                        <?php include(__DIR__ . '/component/MyProjectNow.php'); ?>
                     </div>
                     <div class="work">
                         <h2>Success</h2>
+                        <?php include(__DIR__ . '/component/Success.php'); ?>
                     </div>
 
                     <div class="work">
-                        <h2>Monthly schedule</h2>
+                        <h2>Monthly Schedule</h2>
+                        <?php include(__DIR__ . '/component/Schedule.php'); ?>
                     </div>
                 </div>
             </div>

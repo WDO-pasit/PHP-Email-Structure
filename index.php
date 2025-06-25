@@ -1,5 +1,10 @@
 
-<?php define('BASE_URL', 'http://localhost/Git/Pasit/website_php/'); ?>
+<?php 
+    define('BASE_URL', 'https://ohmtool.com/'); 
+    //define('BASE_URL', 'http://localhost/Git/Pasit/website_php/'); 
+    define('SECURE_ACCESS', true);
+?>
+
 <?php
 $pageConfig = [
     "title" => "pasit workshop",
@@ -48,14 +53,19 @@ $pageConfig = [
                     </div>
                     <div class="text-inside text">
                         <div class="email-input">
+                            <p>name <i class="ri-mail-fill"></i></p>
+                            <input id="name" type="name" name="name"  required>
+                        </div>
+                        <div class="email-input">
                             <p>email <i class="ri-mail-fill"></i></p>
-                            <input type="email">
+                            <input id="email" type="email" name="email"  required>
                         </div>
                         <div class="email">
                             <p>Request the task here</p>
-                            <textarea name="email-text-box" id="" ></textarea>
+                            <textarea id="message" name="message" required ></textarea>
                         </div>
-                        <button>Send email <i class="ri-mail-send-fill"></i></button>
+                        <button  id="Btn" onclick="SendEmail()">Send email <i class="ri-mail-send-fill"></i></button>
+                        <div id="result"></div>
                     </div>
                 </div>
 
@@ -83,4 +93,6 @@ $pageConfig = [
             </div>
         </section>
     </main>
+    <script src="<?= BASE_URL ?>asset/js/3dMovement.js"></script>
+    <script src="<?= BASE_URL ?>asset/js/MailSender.js"></script>
 <?php include(__DIR__ . '/component/footer.php'); ?>

@@ -51,6 +51,8 @@ html{
     padding-right: .5vh;
     padding-left: .5vh;
     z-index: 100 ;
+    
+    background-color: white;
 }
 .text-header a{
     font-size: 1.5rem;
@@ -104,9 +106,12 @@ nav {
 
 
 .footer {
+    position: relative;
     margin-top: 1rem;
     color: var(--font-tone2);
     text-align: center;
+    z-index: 98;
+    background-color: white;
 }
 
 .footer .box-container {

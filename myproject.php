@@ -17,29 +17,12 @@ $pageConfig = [
 <?php include(__DIR__ . '/component/header.php'); ?>
 <link rel="stylesheet" href="<?= BASE_URL ?>asset/css/styles_work.css">
   <main>
-        <section>
-            <div class="home-coming">
-                <h1>My work space</h1>
-                <div class="stack">
-                    <div class="work">
-                        <h2>Web Application</h2>
-                        <?php include(__DIR__ . '/component/WebApplication.php'); ?>
-                    </div>
-                    <div class="work">
-                        <h2>My Project Now</h2>
-                        <?php include(__DIR__ . '/component/MyProjectNow.php'); ?>
-                    </div>
-                    <div class="work">
-                        <h2>Success</h2>
-                        <?php include(__DIR__ . '/component/Success.php'); ?>
-                    </div>
-
-                    <div class="work">
-                        <h2>Monthly Schedule</h2>
-                        <?php include(__DIR__ . '/component/Schedule.php'); ?>
-                    </div>
-                </div>
-            </div>
-        </section>
+   <?php include(__DIR__ . '/component/navbar.php'); ?>
+    <section>
+        <div class="contain">
+            
+        </div>
+    </section>
+        
     </main>
 <?php include(__DIR__ . '/component/footer.php'); ?>

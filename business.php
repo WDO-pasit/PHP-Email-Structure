@@ -15,14 +15,23 @@ $pageConfig = [
 ];
 ?>
 <?php include(__DIR__ . '/component/header.php'); ?>
-<link rel="stylesheet" href="<?= BASE_URL ?>asset/css/styles_work.css">
+<link rel="stylesheet" href="<?= BASE_URL ?>asset/css/styles_sidebar.css">
+<link rel="stylesheet" href="<?= BASE_URL ?>asset/css/styles_business.css">
   <main>
-   <?php include(__DIR__ . '/component/navbar.php'); ?>
-    <section>
-        <div class="contain">
-            
-        </div>
-    </section>
+
+   
+        <body>
+            <section>
+                <div class="contain" style="display:flex;flex-wrap:wrap;">
+                    <?php include(__DIR__ . '/component/navbar.php'); ?>
+                    <div class="contain-business">
+                        <h1>Business Formular free</h1>
+                    </div>
+                </div>
+                
+            </section>
+        </body>
+    
         
     </main>
 <?php include(__DIR__ . '/component/footer.php'); ?>

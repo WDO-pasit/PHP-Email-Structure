@@ -1,7 +1,7 @@
 
 <?php 
-    define('BASE_URL', 'https://ohmtool.com/'); 
-    //define('BASE_URL', 'http://localhost/Git/Pasit/website_php/'); 
+    //define('BASE_URL', 'https://ohmtool.com/'); 
+    define('BASE_URL', 'http://localhost/Git/Pasit/website_php/'); 
     define('SECURE_ACCESS', true);
 ?>
 
@@ -17,7 +17,7 @@ $pageConfig = [
 ];
 ?>
 <?php include(__DIR__ . '/component/header.php'); ?>
-<link rel="stylesheet" href="<?= BASE_URL ?>asset/css/styles_main.css">
+<link rel="stylesheet" href="<?= BASE_URL ?>asset/css/styles_index.css">
   <main>
         <section>
             <div class="home-coming">

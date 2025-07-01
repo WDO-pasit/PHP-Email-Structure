@@ -47,7 +47,7 @@ if (!isset($pageConfig)) {
 
             <nav class="navbar-header">
                 <a href="<?= BASE_URL ?>" class="navhome"><i class="ri-home-fill"></i> home</a>
-                <a href="<?= BASE_URL ?>myproject" class="navhome"><i class="ri-arrow-right-circle-fill"></i> My work</a>
+                <a href="<?= BASE_URL ?>business" class="navhome"><i class="ri-arrow-right-circle-fill"></i> My work</a>
             </nav>
 
             <div class="icon">

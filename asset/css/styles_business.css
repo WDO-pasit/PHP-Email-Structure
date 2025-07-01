@@ -1,0 +1,7 @@
+.contain-business {
+    border: 3px solid var(--font-tone2);
+    height: 300px;
+}
+.contain-business h1{
+    color: black;
+}

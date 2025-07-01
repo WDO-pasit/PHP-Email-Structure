@@ -1,6 +1,6 @@
 :root{
     --main-color:rgb(255, 255, 255);
-    --sidebar-color:rgb(52, 62, 61);
+    --sidebar-color:rgb(129, 180, 174);
     --text-color:rgb(0, 0, 0);
     --primary-color:rgb(0, 179, 255);
 }
@@ -14,7 +14,6 @@ body{
 .sidebar {
     display: flex;
     justify-content: start;
-    position: absolute;
     width: 250px;
     background-color: var(--sidebar-color);
     height: 100%;
